@@ -1,4 +1,6 @@
 Jenkintest::Application.routes.draw do
+  resources :forums
+
   resources :comments
 
   resources :posts
